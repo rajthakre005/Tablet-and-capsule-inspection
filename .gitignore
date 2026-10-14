@@ -1,0 +1,17 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Editor/system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# New inference/training outputs (already-tracked files remain tracked)
+runs/detect/predict*/
+runs/detect/train*/
