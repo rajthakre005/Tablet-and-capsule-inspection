@@ -5,7 +5,8 @@ from pathlib import Path
 from ultralytics import YOLO
 
 # SETTINGS
-MODEL_PATH = Path("runs/detect/train-2/weights/best.pt")
+PROJECT_DIR = Path(__file__).resolve().parent
+MODEL_PATH = PROJECT_DIR / "runs" / "detect" / "train-2" / "weights" / "best.pt"
 CAMERA_INDEX = 0
 CONFIDENCE = 0.15
 IMAGE_SIZE = 640
