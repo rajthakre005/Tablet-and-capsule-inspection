@@ -1,4 +1,5 @@
-path: "E:/SEM 5/IOT/Tablet and capsule inspection"
+# Dataset paths are relative to this repository, so the project works on other computers.
+path: .
 
 train: train/images
 val: valid/images
