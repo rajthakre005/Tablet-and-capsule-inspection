@@ -1,0 +1,10 @@
+path: "E:/SEM 5/IOT/Tablet and capsule inspection"
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names:
+  0: defected
+  1: no-defect
